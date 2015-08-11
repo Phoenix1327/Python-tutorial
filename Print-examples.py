@@ -9,3 +9,6 @@ print '100 + 200 = ',100+200
 #print 'hello', name
 
 print '1024 * 768 =',1024*768
+print ('''line1
+line2
+line3''')
