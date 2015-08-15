@@ -7,5 +7,6 @@ __author__ = 'Administrator'
 def is_palindrome(n):
     return str(n) == str(n)[::-1]
 
-output = filter(is_palindrome, range(1,1000))
-print(list(output))
+if __name__ == '__main__':
+    output = filter(is_palindrome, range(1,1000))
+    print(list(output))
